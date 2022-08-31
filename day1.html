@@ -21,8 +21,6 @@
 <body>
 <h1>Welcome to Django Course</h1>
 <p>In this course you will learn <em>Full Stack WebDev</em></p>
-<img src="Logo.png" alt="Logo of Samyak jain">
-
 <p>Frontend Technologies:</p>
 <ul>
     
@@ -48,7 +46,8 @@
 <br>
 <a href="https://www.google.co.in/" target="_blank"><strong>This is a external Link </strong></a>
 
-<hr>
+<br>
+
 <br>
 <table border="1">
     <tr>
@@ -65,6 +64,77 @@
     
     </tr>
 </table>
+
+<br>
+<hr>
+<h2>Please reach out to us:</h2>
+<form action="thanks.html" method="get">
+
+
+    <!-- <Clicking on the <label> element will focus on the text field of the associated <input> element 
+    if you right label tag anywhere and input anywhere else then when you click on label it will take you to the respective input tag which 
+    it's tagged to. 
+
+    <label for="pwd">password:</label> 
+    <input id="uname" type="text" name="name" value="" placeholder="Enter Name">
+    <label for="uname">Name</label> 
+    <input id="pwd" type="password" name="password" value="" placeholder="enter password">
+    -->
+
+    <label for="uname">Name</label> 
+    <input id="uname" type="text" name="name" value="" placeholder="Enter Name">
+
+    
+
+    <label for="email">email:</label> 
+    <input id="email" type="email" name="email" value="" placeholder="enter email">
+
+    <label for="message">textarea</label>
+    <input id="message" type="textarea" name="text" value="" placeholder="enter the message!" rows:"3" colos="2" >
+
+    <br>
+    <br>
+    <label for="gender">Gender</label>
+
+    <input id="M" type="radio" name="gender" value="M">
+    <label for="M">Male</label>
+    <input id="F" type="radio" name="gender" value="F">
+    <label for="F">Female</label>
+    <input id="None" type="radio" name="gender" value="None">
+    <label for="None">None</label>
+    
+    <br><br>
+    <!-- This is dropdown option -->
+    <label for="payment">select payment method:</label>
+    <select id="payment" name="payment" >
+        <option value="cc">Credit card</option>
+        <option value="db">Debit card</option>
+        <option value="paypal">PayPal</option>
+    </select>
+    
+    <br><br>
+
+    <!-- diff between radio and checkbox is radio button can select one value at a time
+    but in checkbox you can select multiple values-->
+    <label for="tc">Are you agreed with our Terms & Conditions</label>
+    <input id="tc" type="checkbox" name="TC" value="agreed" required checked>
+    
+    <label for="end"></label> 
+    <input id="end" type="submit" name="submit" value="send">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--span tag means that if you want to alter things inside the inline elements then you can use span
 ie. I want to change the "Thanks" to color red and all as blue then span will help us-->
