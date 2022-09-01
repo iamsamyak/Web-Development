@@ -1,0 +1,28 @@
+h1{
+    color: blueviolet;
+}
+
+li {
+    list-style-type:lower-greek;
+    color:brown;
+  }
+  
+p em{
+    color:dimgrey
+}
+
+div.ie{
+    color: crimson;
+}
+
+a:link {
+    color: pink;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+    
